@@ -1,0 +1,137 @@
+#terminal{
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    background-color: black;
+    /* background-color: white; */
+    font-family: "VT323", monospace;
+    font-size: 1.25rem; /*1*/
+    color: white;
+    letter-spacing: 0.2rem; /*0.15*/
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Space Mono', monospace; */
+    /* font-family: 'Syne Mono', monospace; */
+    /* font-family: "Big Shoulders Inline Text", cursive; */
+    overflow: auto;
+}
+a:link{
+    color: rgb(137, 93, 237);
+    color: purple;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(137, 93, 237);
+    color: purple;
+}
+a:hover{
+    border-bottom-color: rgb(195, 195, 34);
+    border-bottom-color: rgb(137, 93, 237);
+}
+
+.harshavarthan-1{
+    font-size: 5.85rem; /*5.55*/
+    letter-spacing: 0.55rem;
+    color: rgb(1, 162, 82);
+}
+.harshavarthan-2{
+    font-size: 5.85rem;
+    letter-spacing: 0.55rem;
+    color: rgb(1, 162, 82);
+    display: none;
+}
+.domain{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    position: relative;
+    right: 10px;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.comment{
+    color: #75715e;
+}
+.name{
+    color: rgb(195, 195, 34);
+    color: rgb(1, 162, 82);
+}
+.path{
+    color: rgb(114, 211, 231);
+}
+.text{
+    color: rgb(1, 162, 82);
+    color: rgb(170, 170, 170);
+    line-height: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    width: 640px; /*50%*/
+    text-align: justify;
+}
+.incorrect{
+    color: red;
+}
+dl{
+    margin: 0px;
+}
+dt{
+    /* margin-left: 1rem; */
+}
+dd{
+    margin-left: 2rem;
+}
+.command{
+    color: white;
+    padding-top: 2.5px;
+    /* padding-bottom: 2px; */
+}
+.duration{
+    font-size: 1rem;
+    position: relative;
+    bottom: 2.5px;
+}
+.underline{
+    /* color: rgb(225, 106, 152); */
+    border-bottom: 1px solid;
+}
+.highlight{
+    color: rgb(225, 106, 152);
+    color: rgb(195, 195, 34);
+    color: lightsalmon;
+}
+input {
+    font-size: 1.25rem;
+    font-family: "VT323", monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    background-color: transparent;
+    border: none;
+    caret-color: white;
+    letter-spacing: 0.2rem;
+    color: white;
+    padding: 0px;
+    padding-top: 2.5px;
+}
+input:focus {
+  outline: none;
+}
+.td{
+    padding-left: 1rem;
+}
+@media screen and (max-width: 681px){
+    .text{
+        width: 90%;
+    }
+    .harshavarthan-1{
+        /* font-size: 2rem;
+        letter-spacing: 0.5rem; */
+        display: none;
+    }
+    .harshavarthan-2{
+        display: block;
+    }
+}
