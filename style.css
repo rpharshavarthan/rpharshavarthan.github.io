@@ -73,6 +73,9 @@ body {
     width: 640px; /*50%*/
     text-align: justify;
 }
+.edu{
+    text-align: left;
+}
 .incorrect{
     color: red;
 }

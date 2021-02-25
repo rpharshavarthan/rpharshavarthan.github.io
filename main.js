@@ -89,37 +89,37 @@ const content = (val) => {
         append(val, showMe, showHere);
     }
     else if (val == "edu"){
-        showMe =`<dl class="text">
+        showMe =`<dl class="text edu">
         <dt><span class="underline">national institute of technology, tiruchirapalli</span></dt>
         <dt><span class="duration">2019-present</span></dt>
-        <dd>bachelor of technology</dd>
-        <dd>major in metallurgical and materials engineering</dd>
-        <dd>8.0 cgpa</dd>
+        <dd>&#8640; bachelor of technology</dd>
+        <dd>&#8640; major in metallurgical and materials engineering</dd>
+        <dd>&#8640; 8.0 cgpa</dd>
         <dt><span class="underline">velammal bodhi campus, madurai</span></dt>
         <dt><span class="duration">2016-18</span></dt>
-        <dd>higher secondary certificate</dd>
-        <dd>81.8%</dd>
+        <dd>&#8640; higher secondary certificate</dd>
+        <dd>&#8640; 81.8%</dd>
         <dt><span class="underline">kendriya vidyalaya cmfri, mandapam</span></dt>
         <dt><span class="duration">2006-16</span></dt>
-        <dd>secondary school certificate</dd>
-        <dd>89.3%</dd></dl></div>`;
+        <dd>&#8640; secondary school certificate</dd>
+        <dd>&#8640; 89.3%</dd></dl></div>`;
         append(val, showMe, showHere);
     }
     else if(val == 'skills'){
         showMe = `<dl class="text">
         <dt><span class="underline">programming language</span></dt>
-        <dd>-python</dd>
-        <dd>-javascript</dd>
-        <dd>-c++</dd>
+        <dd>&#8640; python</dd>
+        <dd>&#8640; javascript</dd>
+        <dd>&#8640; c++</dd>
         <dt><span class="underline">web development</span></dt>
-        <dd>-html</dd>
-        <dd>-css</dd>
-        <dd>-noje.js</dd>
-        <dd>-vue</dd>
+        <dd>&#8640; html</dd>
+        <dd>&#8640; css</dd>
+        <dd>&#8640; noje.js</dd>
+        <dd>&#8640; vue</dd>
         <dt><span class="underline">tools</span></dt>
-        <dd>-git</dd>
-        <dd>-vs code</dd>
-        <dd>-mysql</dd></dl>`;
+        <dd>&#8640; git</dd>
+        <dd>&#8640; vs code</dd>
+        <dd>&#8640; mysql</dd></dl>`;
         append(val, showMe, showHere);
     }
     else if(val == 'projects'){
