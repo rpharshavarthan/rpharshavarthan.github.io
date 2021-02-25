@@ -270,7 +270,7 @@ const content = (val) => {
 
 function append(val, showMe, showHere){
     let previousCommand = `
-    <span class="name">guest@rpharshavarthan.io &gt; <span class='command'>${val}</span></span>`;
+    <span class="name">guest@rphv.io &gt; <span class='command'>${val}</span></span>`;
     let div =`
     <div>${previousCommand}</div>
     <div class="line-break"><br></div>
