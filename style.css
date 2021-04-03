@@ -1,4 +1,41 @@
+/* ----------loader------------- */
+
+/* @background-color: #4684ee;
+@loader-color: #fff;
+@loader-size: 30vh; */
+
+.preloader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e6db74;
+  color: #01a252;
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-family: "VT323", monospace;
+  font-weight: bold;
+  font-size: 15vh;
+  opacity: 0.8;
+}
+.preloader span {
+  display: inline-block;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+}
+.preloader span:nth-child(odd) {
+  animation-delay: 0.4s;
+}
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+/*----------terminal-------------*/
+
 #terminal{
+    display: none;
     margin-right: auto;
     margin-left: auto;
 }

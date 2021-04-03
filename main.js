@@ -1,5 +1,10 @@
+window.addEventListener('load', function(){
+    setTimeout(function(){
+        document.querySelector('.preloader').style.display = 'none';
+        document.querySelector('#terminal').style.display = 'block';
+    }, 2500);
+});
 // time 
-
 
 let dateTime = new Date();
 var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
@@ -18,10 +23,7 @@ ${months[dateTime.getMonth()]}
 ${date} ${dateTime.getFullYear()} 
 ${hr}:${min}:${sec}`;
 
-
 // input
-
-
 function scroll(){
     var element = document.body;
     window.scrollTo(0,element.offsetHeight);
@@ -75,7 +77,7 @@ const content = (val) => {
         fishing village located in the southeast of tamil nadu, india.<br><br>
         i'm an enthusiastic programmer with interests in frontend <span class="underline">
         web development</span> and <span class="underline">algorithmic programming</span>. i'm 
-        also pretty into football. i play for my department football team. i cofounded the 
+        also pretty into football. i play for my department football team. i co-founded the 
         <span class="underline">resolve food group</span>, where we develop a value chain of 
         underutilized wild edible fruit while providing a stable means of livelihood for the tribal 
         fruit collectors, thereby increasing the availability of a wide array of locally produced 
@@ -179,7 +181,7 @@ const content = (val) => {
           fishing village located in the southeast of tamil nadu, india.<br><br>
           i'm an enthusiastic programmer with interests in frontend <span class="underline">
           web development</span> and <span class="underline">algorithmic programming</span>. i'm 
-          also pretty into football. i play for my department football team. i cofounded the 
+          also pretty into football. i play for my department football team. i co-founded the 
           <span class="underline">resolve food group</span>, where we develop a value chain of 
           underutilized wild edible fruit while providing a stable means of livelihood for the tribal 
           fruit collectors, thereby increasing the availability of a wide array of locally produced 
@@ -254,7 +256,7 @@ const content = (val) => {
     append(val, showMe, showHere);
     }
     else if(val == 'exit'){
-        showHere.innerHTML = '';
+      showHere.innerHTML = '';
     }
     else{
         showMe = `<div class="text">
