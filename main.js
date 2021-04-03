@@ -19,10 +19,9 @@ ${date} ${dateTime.getFullYear()}
 ${hr}:${min}:${sec}`;
 
 
-
-
-
 // input
+
+
 function scroll(){
     var element = document.body;
     window.scrollTo(0,element.offsetHeight);
@@ -159,10 +158,6 @@ const content = (val) => {
         append(val, showMe, showHere);
         window.open("mailto:rpharshavarthan@gmail.com", "_blank");
     }
-    else if(val == 'love'){
-        showMe = ``;
-        append(val, showMe, showHere);
-    }
     else if(val == 'website'){
         showMe = `<div class="text">i built this website from scratch using vanilla js with no extra
         libraries and some inspiration form windows shell.<br><br>
@@ -279,154 +274,3 @@ function append(val, showMe, showHere){
     showHere.innerHTML += div;
     scroll();
 }
-
-/*
-function output(val) {
-    if (val == 'help') {
-        showPreviousDir(val);
-        let div = document.createElement("div");
-        let br1 = document.createElement("br");
-        document.body.appendChild(br1);
-        let br2 = document.createElement("br");
-        let span$1 = document.createElement("span");
-        let span$2 = document.createElement("span");
-        let node$1 = document.createTextNode("command list:");
-        let node$2 = document.createTextNode("about, education, skills, projects, contact, help, exit.");
-        span$1.appendChild(node$1);
-        span$2.appendChild(node$2);
-        div.appendChild(span$1);
-        div.appendChild(br2);
-        div.appendChild(span$2);
-        div.className = 'text';
-        document.body.appendChild(div);
-        showNewDir();
-        <dt><span class="underline">love</span></dt><dd>-my biggest mistake</dd>
-        <span class='text'><span class='highlight'>command list</span>:<br>
-        &emsp;<span class='highlight'>about</span><br>&emsp;&emsp;-stop stalking me<br>
-        &emsp;<span class='highlight'>edu</span><br>&emsp;&emsp;-yeah, i had been to college<br>
-        &emsp;<span class='highlight'>skills</span><br>&emsp;&emsp;-i'm pretty good at some things<br>
-        &emsp;<span class='highlight'>projects</span><br>&emsp;&emsp;-yeah, i have done some cool stuffs<br>
-        &emsp;<span class='highlight'>contact</span><br>&emsp;&emsp;-bring on the spam<br>
-        &emsp;<span class='highlight'>all</span><br>&emsp;&emsp;-everything about me<br>
-        &emsp;<span class='highlight'>exit</span><br>&emsp;&emsp;-clear the terminal</span>`
-    }
-}
-
-function showPreviousDir(val) {
-    const dir = document.querySelector('.dir');
-    let br = document.createElement("br");
-    dir.style.display = 'none';
-    // dir.remove();
-    let div = document.createElement("div");
-    let span$1 = document.createElement("span");
-    span$1.className = 'name';
-    let node$1 = document.createTextNode("guest@rpharshavarthan.io > ");
-    span$1.appendChild(node$1);
-    let span$2 = document.createElement("span");
-    span$2.className = 'command';
-    let node$2 = document.createTextNode(val);
-    span$2.appendChild(node$2);
-    div.appendChild(span$1);
-    div.appendChild(span$2);
-    // div.className = 'static-input';
-    document.body.appendChild(div);
-}
-
-function showNewDir() {
-    let div = document.createElement("div");
-    div.className = 'dir';
-    let br = document.createElement("br");
-    let span = document.createElement("span");
-    span.className = 'name';
-    let node = document.createTextNode("guest@rpharshavarthan.io > ");
-    span.appendChild(node);
-    let input = document.createElement('input');
-    input.setAttribute('type', 'text');
-    input.className = 'input';
-    input.setAttribute('autocomplete', 'new-password');
-    input.autofocus = true;
-    div.appendChild(br);
-    div.appendChild(span);
-    div.appendChild(input);
-    document.body.appendChild(div);
-    input.focus();
-}
-else if(val == 'cont'){
-        showMe = `<div class="text">
-        Long long back.
-        There lived a handsome chunk.
-        It's me.
-        And a girl.
-        Were became friends through Facebook.
-        Both started to talk in mob.
-        He with his flirting talent got her no.
-        They started exchanging what they like and what they don't.
-        One fine he did a great mistake.
-        By sending a proposal message.
-        set her a heart emoji and deleted it.
-        And then she asked what he send.
-        He told her i love you.
-        The she didn't believed.
-        She asked fr voice message.
-        And call.
-        He never thought of problems he is going to see in future.
-        She told him she needs time to think.
-        Asked an week for her reply.
-        But she continued to talk with him in call.
-        And he made her to accept next day itself.
-        On that day itself his dad noted his change in behaviour.
-        And found what wrong he's doing.
-        And checked his mob.
-        Aftr that he managed to tell her that his phone was not with him.
-        And he chatted with her in fb itself.
-        At that time he caught three times by parents because of the app lock fails.
-        Even he did video call and chatted with her.
-        There came valentine's week.
-        She gifted him keychain roses teddy.
-        On each day.
-        Chocolates also.
-        He gave her chocolate and.
-        Not hugs and kisses on valentine's week.
-        Then on farewell.
-        Both hugged and kissed.
-        Aftr that they didn't see much.
-        And he also don't get mob and went to depression.
-        Aftr 3 months he told his friend and asked her to forget him.
-        She got angry and wanted to speak with him.
-        But he refused to speak and chatted in fb.
-        She scolded him badly.
-        And he didn't reply anything.
-        Aftr a month he tried to talk with her.
-        She created a fake id for him and talked with him In fb.
-        He tried to make her understand his side of problems.
-        She was still angry with him.
-        Days passed he joined in clg still chatted with her.
-        And again he did a mistake of proposing her.
-        And then he also did a tricky thing to make her to accept him.
-        Wanna know how he did?
-        He told her he got a proposal frm a girl frm his hometown.
-        To believe that proposal.
-        He himself chatted with his friend no. To him and took a screenshot and send it to her.
-        Then she accepted his proposal.
-        And he told her he did a trick.
-        She also searched for that no. In truecaller.
-        B4 accepting.
-        Aftr that they chatted less.
-        The year passed.
-        In 2020 both mutually breaked up their relationship.
-        Aftr a months they chatted.
-        Not regularly.
-        Once in a month.
-        Then.
-        One fine day he noticed her dp and status were disppeared.
-        He confirmed that she blocked him in whatsapp.
-        Then in instagram he asked her.
-        She told no reason.
-        He asked her block in instagram too.
-        She again tried to start a conversation asking about old things
-        He refused to tell her anything.
-        He replied "you are going to block me here too y shud i give you answers".
-        The she blocked him everywhere.</div>`;
-        append(val, showMe, showHere);
-    }
-*/
